@@ -1,0 +1,1 @@
+package com.java2novice.sorting; import static java.lang.System.out; import java.util.Scanner; import java.util.Arrays; import java.io.*; import static java.lang.Math.abs; public class MyMergeSort {private int[] array;private int[] tempMergArr;private int length;public static void main(String a[]){

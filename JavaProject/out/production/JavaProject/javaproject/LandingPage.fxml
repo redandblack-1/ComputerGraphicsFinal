@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="LPbackground" prefHeight="558.0" prefWidth="781.0" styleClass="LPbackground" stylesheets="@LPcss.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javaproject.LandingPageController">
+   <children>
+      <Label layoutX="227.0" layoutY="113.0" prefHeight="103.0" prefWidth="327.0" text="Typing Practice">
+         <font>
+            <Font size="47.0" />
+         </font>
+      </Label>
+      <AnchorPane fx:id="subpane" layoutX="91.0" layoutY="321.0" prefHeight="196.0" prefWidth="598.0" styleClass="subpane">
+         <children>
+            <JFXButton fx:id="quickTestButton" layoutX="220.0" layoutY="112.0" onAction="#goToTest" prefHeight="47.0" prefWidth="158.0" text="Start Test" textFill="#171515" />
+            <Label layoutX="256.0" layoutY="31.0" prefHeight="67.0" prefWidth="96.0" text="Test your skills" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
